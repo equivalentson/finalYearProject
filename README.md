@@ -45,7 +45,7 @@ Main outputs:
 - annual summary values for demand, PV generation, imports, exports, and self-supply
 
 
-### 4. `sensitivity_variable_price.py`
+### 3. `sensitivity_variable_price.py`
 
 This script performs the electricity-pricing sensitivity analysis.
 
