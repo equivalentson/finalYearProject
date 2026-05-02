@@ -44,9 +44,6 @@ Main outputs:
 - hourly residual-demand results
 - annual summary values for demand, PV generation, imports, exports, and self-supply
 
-### 3. `mip.py`
-
-This script is used to process weekly Market Index Price CSV files. It merges all files matching the pattern `MarketIndexPrices-*.csv`, cleans and sorts the data, optionally filters to a chosen provider (`APXMIDP` in the current version), and calculates both the arithmetic and volume-weighted annual average price. It also saves full and filtered merged datasets for later use in the pricing analysis.
 
 ### 4. `sensitivity_variable_price.py`
 
@@ -95,7 +92,6 @@ The repository includes both a fixed-price and variable-price valuation of self-
 
 - `capacityScenario.py` – PV capacity sizing
 - `residual_section_34.py` – hourly technical balance
-- `mip.py` - MIP complier
 - `sensitivity_variable_price.py` – pricing sensitivity and NPV analysis
 
 ## Known Issues / Future Improvements
